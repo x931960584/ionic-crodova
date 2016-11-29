@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=Ur8ZzROxw1kW2gSQ331bSoBm"></script>
+    <script src="js/main.js"></script>
+    <script src="cordova.js"></script>
+</head>
+<body ng-app="JiaPin" class="platform-windows platform-cordova platform-webview">
+    <ion-nav-bar class="bar-positive">
+    </ion-nav-bar>
+    <ion-nav-view></ion-nav-view>
+</body>
+
+</html>

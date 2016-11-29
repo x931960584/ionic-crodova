@@ -1,0 +1,17 @@
+<ion-view view-title="加拼">
+    <ion-content class="padding">
+        <p>lat:{{lat}}
+        </p>
+        <p>long:{{long}}
+        </p>
+        <div style="border:1px solid #dddddd">
+            <button class="button button-light" ng-click="geoLocation()">重新定位</button>
+        </div>
+        <ion-slide-box class="slidebox" show-pager="true" on-slide-changed="slideHasChanged($index)" auto-play="true" slide-interval="4000" delegate-handle="slides" does-continue="true">
+            <ion-slide ng-repeat="slide in slides">
+                <div class="box blue">
+                    <h1>{{slide.name}}</h1></div>
+            </ion-slide>
+        </ion-slide-box>
+    </ion-content>
+</ion-view>

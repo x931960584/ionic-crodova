@@ -1,0 +1,43 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.yunji.jiapin"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.yunji.jiapin"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.yunji.jiapin"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.yunji.jiapin"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.yunji.jiapin"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.yunji.jiapin"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.yunji.jiapin"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.yunji.jiapin"
+        },
+        "org.pbernasconi.progressindicator": {
+            "PACKAGE_NAME": "com.yunji.jiapin"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.yunji.jiapin"
+        }
+    }
+}

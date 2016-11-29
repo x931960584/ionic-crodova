@@ -1,0 +1,15 @@
+<ion-view view-title="零猫">
+	<ion-nav-title>
+    </ion-nav-title>
+	<ion-nav-buttons side="primary">
+    </ion-nav-buttons>
+    <ion-content scroll="true">
+        <ion-slide-box ng-if="slides" does-continue="true" auto-play="true" show-pager="true" slide-interval="3000" pager-click="pageClick(index)" active-slide="model.activeIndex">
+            <ion-slide ng-repeat="slide in slides" on-slide-changed="slideHasChanged($index)">
+                <div class="box">
+                    <img ng-src="{{slide.imgSrc}}">
+                </div>
+            </ion-slide>
+        </ion-slide-box>
+    </ion-content>
+</ion-view>
